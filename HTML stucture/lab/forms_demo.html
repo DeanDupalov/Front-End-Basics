@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <p>Forms</p>
+</header>
+<main>
+    <form action="#" method="method">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Form Methods</p>
+    <form action="/action_page.php" method="get">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Gender">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="">
+        <input type="email" required="true"/>
+        <input type="url" required="true"/>
+        <input type="tel" required="true"/>
+
+        <form><label for="colors">Choose a color:</label> <select id="colors" name="colors">
+            <option value="volvo">Red</option>
+            <option value="saab">Black</option>
+            <option value="fiat">White</option>
+        </select>
+
+        </form>
+        <textarea rows="10" cols="30">The cat was playing in the garden.
+        </textarea>
+
+
+    </form>
+
+</main>
+</body>
+</html>
