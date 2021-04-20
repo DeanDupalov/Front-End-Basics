@@ -1,0 +1,15 @@
+/*@font-face {*/
+/*    font-family: 'Ubuntu';*/
+/*    src: url('./Ubuntu/Ubuntu-Regular.ttf') format('truetype');*/
+/*}*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap');
+body {
+
+    font-family: 'Ubuntu', 'Arial', "Georgia";
+
+}
+p {
+    text-indent: 10px;
+}
