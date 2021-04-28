@@ -1,0 +1,34 @@
+html {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+body {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.site-branding {
+    display: inline-block;
+    width: 50%;
+}
+
+.site-header nav {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.site-main {
+    display: inline-block;
+    width: 69%;
+}
+
+.site-sidebar {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.entry {
+    padding: 0 1.5em;
+}

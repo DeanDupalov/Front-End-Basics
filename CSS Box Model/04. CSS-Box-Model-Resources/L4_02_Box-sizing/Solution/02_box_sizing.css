@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Reset CSS Box Model Sizing calculations!*/
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+section {
+    width: 250px;
+    height: 250px;
+    border: 5px dotted #23CA85;
+    text-align: center;
+    margin: 5em auto;
+
+}
+
+p {
+    width: 100%;
+    border: 5px solid #0936CA;
+    padding: 20px;
+    text-align: center;
+}
+section h1 {
+    padding: 1em 0;
+}

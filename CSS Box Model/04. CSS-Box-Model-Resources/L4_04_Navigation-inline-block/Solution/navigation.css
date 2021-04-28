@@ -1,0 +1,25 @@
+.site-nav {
+    text-align: left;
+    padding-top: 0.5em;
+
+}
+
+.site-nav ul li {
+    display: inline-block;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.5em 2em;
+    color: rgb(31, 153, 3);
+    text-decoration: none;
+}
+span {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+/*.site-nav a:hover {*/
+/*    background: skyblue;*/
+/*    color: #FFF;*/
+/*}*/

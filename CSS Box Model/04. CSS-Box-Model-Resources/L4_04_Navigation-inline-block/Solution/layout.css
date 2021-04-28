@@ -1,0 +1,15 @@
+body {
+    padding-top: 2em;
+    max-width: 80em;
+    margin: 0 auto;
+}
+.site-branding {
+    display: inline-block;
+    width: 20%
+}
+
+.site-nav {
+    display: inline-block;
+    width: 79%;
+    vertical-align: central;
+}
