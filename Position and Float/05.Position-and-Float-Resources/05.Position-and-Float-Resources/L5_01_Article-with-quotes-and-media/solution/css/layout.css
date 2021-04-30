@@ -1,0 +1,71 @@
+html {
+    max-width: 60em;
+    margin: 1em auto;
+}
+
+.site {
+
+}
+.site-header {
+
+}
+.site-title {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1em 0 0.5em 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid black
+}
+
+.box-photo.one {
+    width: 20%;
+    float: right;
+    margin-left: 1em;
+}
+.box-photo.two {
+    width: 20%;
+    float: left;
+    margin-right: 1em;
+
+}
+.box-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 4px solid black;
+    padding: 0.5em;
+
+
+}
+.cleaner-box {
+    display: block;
+    clear: both;
+}
+.site-main {
+
+}
+
+.box-quote {
+    width: 45%;
+    float: right;
+    margin-left: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+    border-left: 2px solid rgba(0,0,0,0.4);
+}
+
+blockquote p {
+    font-style: italic;
+    color: rgba(0,0,0,0.4);
+}
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+blockquote p.author {
+    text-align: right;
+}
+
+

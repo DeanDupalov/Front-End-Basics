@@ -1,0 +1,19 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+
+body, form, input, select, textarea, option,  button {
+    font: inherit;
+}
+
+ul, ol, p {
+    padding-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-family: "Times New Roman",sans-serif;
+    font-weight: normal;
+}

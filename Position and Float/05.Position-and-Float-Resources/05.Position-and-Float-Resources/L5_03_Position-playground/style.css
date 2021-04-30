@@ -1,0 +1,48 @@
+@import url('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+@import url('reset.css');
+
+.viewport{
+    height: 100vh;
+    background-color: cornflowerblue;
+    position: relative;
+
+}
+.viewport:nth-child(even) {
+    background-color: cadetblue;
+}
+.card {
+    color: #FFF;
+    font-size: 3em;
+    background: chocolate;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12em;
+    overflow: hidden;
+    border-radius: 0.2em;
+}
+
+
+.card::before {
+    display: block;
+    content: "";
+    background: rgba(0,0,0, 0.5);
+    position: relative;
+    z-index: 10;
+}
+.card.ar-16x9::before {
+    padding-top: calc( (9/16) * 100% );
+}
+.card.ar-9x16 {
+    width: 8em;
+}
+.card.ar-9x16::before {
+    padding-top: calc( (16/9) * 100% );
+}
+
+.card .media {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: blue;
+}
