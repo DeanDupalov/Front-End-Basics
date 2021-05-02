@@ -21,22 +21,27 @@
     width: 12em;
     overflow: hidden;
     border-radius: 0.2em;
+    box-shadow: 0 0 1.5em 0.1em rgba(0, 0, 0, 0.2);
 }
 
 
 .card::before {
     display: block;
     content: "";
-    background: rgba(0,0,0, 0.5);
+    /*background: rgba(0,0,0, 0.5);*/
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.4) inset;
     position: relative;
     z-index: 10;
+    pointer-events: none;
 }
 .card.ar-16x9::before {
     padding-top: calc( (9/16) * 100% );
 }
+
 .card.ar-9x16 {
     width: 8em;
 }
+
 .card.ar-9x16::before {
     padding-top: calc( (16/9) * 100% );
 }
@@ -45,4 +50,22 @@
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     background: blue;
+}
+
+.card.portrait img {
+    display: block;
+    width: auto; height: 100%;
+}
+
+.card.landscape img {
+    display: block;
+    width: 100%; height: auto;
+}
+
+.card .icon {
+
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 1.5em;
+    right: 1.5em;
 }
