@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(238, 238, 238);
+    max-width: 70em;
+    margin: 0 auto;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+
+.site-header,
+.site-main,
+.site-sidebar,
+.site-footer {
+    background-color: white;
+    /*border: 1px solid rgb(221, 221, 221);*/
+    border-radius: 0.3em;
+    height: auto;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 0 1em 0.3em rgba(0, 0, 0, 0.4);
+}
+.site-header {
+    flex: 1 1 30%;
+
+}
+.container {
+    display: flex;
+    flex: 1 1 50%;
+}
+.container .site-main {
+    flex: 1 1 60%;
+
+}
+
+
+.container .site-sidebar {
+    flex: 1 1 40%;
+}
+
+.site-footer {
+    flex: 1 1 20%;
+}

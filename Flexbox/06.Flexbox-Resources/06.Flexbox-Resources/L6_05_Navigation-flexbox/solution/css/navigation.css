@@ -1,0 +1,25 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-nav li {
+    justify-content: space-between;
+    display: block;
+    margin: 1em;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: green;
+}
+
+.title {
+    display: block;
+    vertical-align: bottom;
+}

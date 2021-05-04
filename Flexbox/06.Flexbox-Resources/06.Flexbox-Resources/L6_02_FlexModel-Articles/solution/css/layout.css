@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    max-width: 70vw;
+    margin: 1.5em auto;
+    justify-content: space-between;
+}
+
+.container article {
+    padding: 3em;
+}

@@ -1,0 +1,30 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body, form, select, input, textarea, option, select, .title {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: 1em/1.2 Georgia, serif;
+    padding-bottom: 0.5em;
+
+}
+
+h1 {font-size: 2.2em}
+h2 {font-size: 2.0em}
+h3 {font-size: 1.8em}
+h4 {font-size: 1.6em}
+h5 {font-size: 1.4em}
+h6 {font-size: 1.2em}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+.title {
+    font-size: 3.4em;
+    text-transform: uppercase;
+    vertical-align: bottom;
+
+}
